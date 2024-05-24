@@ -1,7 +1,7 @@
 // insira as informaçoes enviadas pelo app Blynk
-#define BLYNK_TEMPLATE_ID           "TMPL2Qhvrl3VG"
-#define BLYNK_TEMPLATE_NAME         "Quickstart Device"
-#define BLYNK_AUTH_TOKEN            "DytKbtMilsfueBUg0BLqi19awjV_R0vE"
+#define BLYNK_TEMPLATE_ID           ""
+#define BLYNK_TEMPLATE_NAME         ""
+#define BLYNK_AUTH_TOKEN            ""
 
 // selecione o modem:
 #define TINY_GSM_MODEM_SIM7000
@@ -12,9 +12,9 @@
 
 //configuração de rede, deve mudar de acordo com a operadora
 char auth[] = BLYNK_AUTH_TOKEN; //este não muda
-char apn[]  = "zap.vivo.com.br";
-char user[] = "vivo";
-char pass[] = "vivo";
+char apn[]  = "";  //zap.vivo.com.br
+char user[] = "";  //vivo
+char pass[] = "";  //vivo
 
 //configurando modem interno
 #define SerialAT Serial1
